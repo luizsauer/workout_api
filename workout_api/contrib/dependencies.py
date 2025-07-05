@@ -1,7 +1,7 @@
+#workout_api\contrib\dependencies.py
 from typing import Annotated
-from fastapi import Depends
-
 from sqlalchemy.ext.asyncio import AsyncSession
+from fastapi import Depends
 
 from workout_api.configs.database import get_session
 
